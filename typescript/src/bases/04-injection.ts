@@ -1,4 +1,3 @@
-import axios from "axios";
 import { HttpAdapter, PokeApiAdapter } from "../api/pokeApi.adapter";
 import {
   Move,
