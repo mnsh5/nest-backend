@@ -9,10 +9,7 @@ export class Pokemon {
     return `https://pokemon.com/${this.id}.jpg`;
   }
 
-  constructor(
-    public readonly id: number,
-    public name: string // Todo: inyectar dependencias
-  ) {}
+  constructor(public readonly id: number, public name: string) {}
 
   scream() {
     console.log(`${this.name.toUpperCase()}!!!`);
